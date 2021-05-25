@@ -3,6 +3,6 @@
 function currentYear(){
 	var newDate = new Date();
 	var year = newDate.getFullYear()
-	alert(`It's ${year}`)
+	alert(`Just so you know, it's year ${year}`)
 
 }
