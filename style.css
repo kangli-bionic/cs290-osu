@@ -1,0 +1,75 @@
+  /* Nav bar styling with ideas from https://itnext.io/how-to-create-a-responsive-navigation-bar-with-html-css-and-jquery-step-by-step-tutorial-9c780b58479f */
+  nav {
+      width: 100vw;
+      background-color: #00a3cc;
+      padding: 1vw;
+  }
+
+  nav li {
+      display: inline;
+      list-style-type: none;
+      margin: 0 3vw;
+      font-size: 2.5vh;
+  }
+
+
+  nav a {
+      text-decoration: none;
+      color: black;
+      padding: 1vw;
+      font-family: monospace;
+  }
+
+  nav a:hover {
+      background-color: lightblue;
+  }
+
+
+  nav ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+  }
+
+
+
+  .active {
+      background-color: lightblue;
+  }
+
+  .top {
+      text-align: center;
+      font-size: 25px;
+      padding: 10px;
+      background-color: navajowhite;
+  }
+
+
+  .center {
+      display: block;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+
+  .lbback {
+      background-color: rgb(196, 202, 204);
+  }
+
+
+  .column {
+      height: 250px;
+      float: left;
+      width: 50%;
+      background-color: navajowhite;
+      max-height: 100%;
+      overflow-y: scroll;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
